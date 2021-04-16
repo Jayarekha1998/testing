@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Cyber Knight Private Limited</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/vendors/liquid-icon/liquid-icon.min.css" />
+        <link rel="stylesheet" href="assets/vendors/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="assets/css/theme-vendors.min.css" />
+        <link rel="stylesheet" href="assets/css/theme.min.css" />
+        <link rel="stylesheet" href="assets/css/themes/mobile.css" />
+
+        <script async src="assets/vendors/modernizr.min.js"></script>
+  <style type="text/css">
+
+    body{
+      background-color: #000;
+      margin: 0px;
+
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    #ifr3{
+      overflow: scroll;
+      width: 100%;
+      min-height: 600px;
+    }
+    #ifr2{
+      overflow: scroll;
+      width: 100%;
+      min-height: 700px;
+    }
+    #ifr{
+      overflow: scroll;
+      width: 100%;
+      min-height: 700px;
+    }
+    .td1{
+        width: 50%; 
+    }
+    @media only screen and (max-width: 1000px)
+    {
+        #contact
+        {
+            margin: 0px 10px;
+        }
+        #ifr
+        {
+            height: 800px;
+            margin: 0px 20px 0px 20px;
+        }
+        #ifr3
+        {
+            height: 1010px;
+        }
+        .td1
+        {
+            display: block;
+            width: 100%;
+        }
+        .p2frame
+        {
+            height: auto;
+        }
+
+    }
+    .tx{
+        color: #ffff !important;
+        font-family: glacial indifference, sans-serif;
+    }
+    table tbody td
+    {
+        border: none;
+    }
+    .cursor {
+      height: 30px;
+      width: 30px;
+      border-radius: 40px;
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      position: absolute;
+      z-index: 990;
+      pointer-events: none;
+    }
+    .mask{
+        position: absolute;
+        width: 100vw;
+        height: 150vh;
+        background-color: transparent;
+    }
+
+  </style>
+</head>
+<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-align="left" data-mobile-nav-style="minimal" data-mobile-nav-shceme="gray" data-mobile-header-scheme="gray" data-mobile-nav-breakpoint="1199">
+    
+  <div id="wrap">
+            <header class="main-header main-header-overlay">
+                <div class="mainbar-wrap">
+                    <div class="megamenu-hover-bg"></div>
+                    <div class="container-fluid mainbar-container">
+                        <div class="mainbar">
+                            <div class="row mainbar-row align-items-lg-stretch px-4">
+                                <div class="col">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="index.html" rel="home">
+                                            <span class="navbar-brand-inner">
+                                                <img class="logo-dark" src="assets/img/logo/logo-1.png" alt="Cyber Knight" />
+                                                <img class="logo-light" src="assets/img/logo/logo-light.png" alt="Cyber Knight" />
+                                                <img class="logo-sticky" src="assets/img/logo/logo-1.png" alt="Cyber Knight" />
+                                                <img class="mobile-logo-default" src="assets/img/logo/logo-1.png" alt="Cyber Knight" />
+                                                <img class="logo-default" src="assets/img/logo/logo-light.png" alt="Cyber Knight" />
+                                            </span>
+                                        </a>
+                                        <button
+                                            type="button"
+                                            class="navbar-toggle collapsed nav-trigger style-mobile"
+                                            data-toggle="collapse"
+                                            data-target="#main-header-collapse"
+                                            aria-expanded="false"
+                                            data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'
+                                        >
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="bars">
+                                                <span class="bar"></span>
+                                                <span class="bar"></span>
+                                                <span class="bar"></span>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col text-right">
+                                    <div class="collapse navbar-collapse" id="main-header-collapse" aria-expanded="false" role="tablist">
+                                        <ul class="main-nav main-nav-hover-underline-1 nav align-items-lg-stretch justify-content-lg-end">
+                                            <li>
+                                                <a href="#about">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">About</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#cyber">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">Cyber Threats</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#services">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">Services</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#contact">
+                                                    <span class="link-icon"></span>
+                                                    <span class="link-txt">
+                                                        <span class="link-ext"></span>
+                                                        <span class="txt">Contact</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="header-module">
+                                       
+                                                <span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="btn-gradient-border" width="100%" height="100%">
+                                                    <defs>
+                                                        <linearGradient id="svg-border-5c594d6934526" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                            <stop offset="0%" style="stop-color: #0287ed;"></stop>
+                                                            <stop offset="100%" style="stop-color: #03afe0;"></stop>
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <rect x="0.5" y="0.5" rx="4px" ry="4px" width="100%" height="100%" stroke="url(#svg-border-5c594d6934526)"></rect>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <main style="background-color: #000" class="content">
+                <div style="height: 800px" class="mask"></div>
+                <iframe id="main_div" frameborder="0px" scrolling="no" src="site/index.html" width="100%" height="800px"></iframe>
+                <div id="about" class="p2frame" style="background-color: #000;width: 100vw;">
+                  <table id="t1" style="border: none; width: 100%;">
+                    <tr style="border: none;">
+                      <td class="td1" style="border: none;">
+                        <iframe id="ifr" frameborder="0px" scrolling="no" src="world/index.html"></iframe>
+                      </td>
+                      <td style="width: 100%;margin-left: auto;" class="td1">
+                                    <h6 class="font-size-13 text-uppercase ltr-sp-05 tx">WHY Us?</h6>
+                                    <h2 class="mt-4 mb-4 tx" data-split-text="true" data-split-options='{"type":"lines"}' style="font-size: 40px">The world is online, <span class="text-secondary" style="font-size: 45px;">We make sure its protected there.</span></h2>
+                                    <p class="tx" data-split-text="true" data-split-options='{"type":"lines"}'>From the advent of the Internet of Things (IoT) to the adoption of Software 
+
+as a Service (SaaS) over conventional in-house applications, the field of technology is rapidly changing. 
+
+And as technologies evolve, so 
+
+does the landscape of threats. 
+
+Yet many companies change their technologies without IT, 
+
+information management, procurement, or risk specialists' guidance or direction.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+                <div id="cyber" style="background-color: #000;width: 100vw;">
+                  <table style="border: none; width: 100%; padding: 0px">
+                    <tr style="border: none; padding: 0px">
+                      <td style="border: none;padding: 0px">
+                        <div class="mask"></div>
+                        <iframe id="ifr3" frameborder="0px" scrolling="no" src="people.html"></iframe>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+<section id="services" class="vc_row pt-100 pb-60">
+<div class="container">
+<div class="row">
+<div class="lqd-column col-md-6 col-md-offset-3">
+<header class="fancy-title text-center mb-70">
+<h2 style="color: white">What we do</h2>
+</header>
+</div>
+</div>
+<div class="row">
+<div class="lqd-column col-md-4 pl-md-5 pr-md-7">
+<div class="iconbox text-left iconbox-xl iconbox-heading-sm" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"rgb(120, 11, 238):rgb(29, 225, 209)"}'>
+<div class="iconbox-icon-wrap">
+<span class="iconbox-icon-container">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><path stroke-width="2" stroke-miterlimit="10" d="M32,47L63,47L63,5L1,5L1,47L18,47L18,59Z"></path> <path stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M23,26L30,33L 43,20"></path> </svg>
+</span>
+</div>
+<div class="contents">
+<h3 style="color:white">Security</h3>
+<p>Lorem ipsum dolor set amet. this is a dumy paragraph to illustrate the services of the website.</p>
+</div>
+</div>
+</div>
+<div class="lqd-column col-md-4 pl-md-5 pr-md-7">
+<div class="iconbox text-left iconbox-xl iconbox-heading-sm" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"rgb(120, 11, 238):rgb(29, 225, 209)"}'>
+<div class="iconbox-icon-wrap">
+<span class="iconbox-icon-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><polygon stroke-width="2" stroke-miterlimit="10" points="1,25 12,59 52,59 63,25 "></polygon> <line stroke-width="2" stroke-miterlimit="10" x1="14" y1="25" x2="22" y2="5"></line> <line stroke-width="2" stroke-miterlimit="10" x1="50" y1="25" x2="42" y2="5"></line> <polyline stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,41 30,48 43,35 "></polyline> </svg>
+</span>
+</div>
+<div class="contents">
+<h3 style="color: white">Cyber Threats</h3>
+<p>Lorem ipsum dolor set amet. this is a dumy paragraph to illustrate the services of the website.</p>
+</div>
+</div>
+</div>
+<div class="lqd-column col-md-4 pl-md-5 pr-md-7">
+<div class="iconbox text-left iconbox-xl iconbox-heading-sm" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"rgb(120, 11, 238):rgb(29, 225, 209)"}'>
+<div class="iconbox-icon-wrap">
+<span class="iconbox-icon-container">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad629102" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(120, 11, 238)"></stop><stop offset="100%" stop-color="rgb(29, 225, 209)"></stop></linearGradient></defs> <g> <path stroke-width="2" stroke-miterlimit="10" d="M1,6L1,54L32,58L63,54L63,6L32,10Z"></path> <path stroke-width="2" stroke-miterlimit="10" d="M32,58L32,10"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,16L26,18"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,26L26,28"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,36L26,38"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,46L26,48"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,16L38,18"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,26L38,28"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,36L38,38"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,46L38,48"></path> </g> </svg>
+</span>
+</div>
+<div class="contents">
+<h3 style="color: white">Web Developement</h3>
+<p>Lorem ipsum dolor set amet. this is a dumy paragraph to illustrate the services of the website.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="vc_row pt-60 pb-250 bg-gradient-secondary-lr">
+<div class="container">
+<div class="row">
+<div class="lqd-column col-md-6 col-md-offset-3">
+<header class="fancy-title text-center">
+<h6 class="text-fade-white-05 text-uppercase ltr-sp-2 font-size-12">What we do</h6>
+<h2 class="text-white">Security</h2>
+</header>
+</div>
+</div>
+</div>
+</section>
+<section class="vc_row pull-up">
+<div class="container">
+<div class="row">
+<div class="lqd-column col-md-3 col-sm-6">
+<div class="iconbox iconbox-semiround iconbox-shadow iconbox-xl iconbox-filled iconbox-filled iconbox-filled-hover iconbox-light-onhover bg-ebony-clay pt-65 pb-65">
+<div class="iconbox-icon-wrap">
+<span class="iconbox-icon-container text-white">
+<i class="icon-ecommerce_bag_plus"></i>
+</span>
+</div>
+<div class="contents">
+<h3 class="text-white font-size-21 mb-25">Cyber Threats</h3>
+<p>Lorem ipsum dolor set amet. this is a dumy paragraph to illustrate the services of the website.</p>
+</div>
+</div>
+ </div>
+<div class="lqd-column col-md-3 col-sm-6">
+<div class="iconbox iconbox-semiround iconbox-shadow iconbox-xl iconbox-filled iconbox-filled iconbox-filled-hover iconbox-light-onhover bg-ebony-clay pt-65 pb-65">
+<div class="iconbox-icon-wrap">
+<span class="iconbox-icon-container text-white">
+<i class="icon-basic_archive_full"></i>
+</span>
+</div>
+<div class="contents">
+<h3 class="text-white font-size-21 mb-25">Bug Fixes</h3>
+<p>Lorem ipsum dolor set amet. this is a dumy paragraph to illustrate the services of the website.</p>
+</div>
+</div>
+</div>
+<div class="lqd-column col-md-3 col-sm-6">
+<div class="iconbox iconbox-semiround iconbox-shadow iconbox-xl iconbox-filled iconbox-filled iconbox-filled-hover iconbox-light-onhover bg-ebony-clay pt-65 pb-65">
+<div class="iconbox-icon-wrap">
+<span class="iconbox-icon-container text-white">
+<i class="icon-basic_mail_open_text"></i>
+</span>
+</div>
+<div class="contents">
+<h3 class="text-white font-size-21 mb-25">Inspections</h3>
+<p>Lorem ipsum dolor set amet. this is a dumy paragraph to illustrate the services of the website.</p>
+</div>
+</div>
+</div>
+<div class="lqd-column col-md-3 col-sm-6">
+<div class="iconbox iconbox-semiround iconbox-shadow iconbox-xl iconbox-filled iconbox-filled iconbox-filled-hover iconbox-light-onhover bg-ebony-clay pt-65 pb-65">
+<div class="iconbox-icon-wrap">
+<span class="iconbox-icon-container text-white">
+<i class="icon-ecommerce_creditcard"></i>
+</span>
+</div>
+<div class="contents">
+<h3 class="text-white font-size-21 mb-25">Hosting</h3>
+<p>Lorem ipsum dolor set amet. this is a dumy paragraph to illustrate the services of the website.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+                <div id="map" style="background-color: #000;width: 100vw;">
+                  <table style="border: none; width: 100%; padding: 0px">
+                    <tr style="border: none; padding: 0px">
+                      <td style="border: none;padding: 0px">
+                        <div class="mask"></div>
+                        <iframe id="ifr2" frameborder="0px" scrolling="no" src="map/index.html"></iframe>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+
+<div align="center">
+<h2 class="mt-4 mb-4 tx" data-split-text="true" data-split-options='{"type":"lines"}' style="font-size: 40px">The world is online, <span class="text-secondary" style="font-size: 45px;">We make sure its protected there.</span></h2>
+<p>Beyond this, the cyber security protocols boost employee productivity by minimizing computer system downtime while optimizing your website’s uptime. <br>As you shield computers and hardware from malware, you’re also improving equipment longevity and postponing replacement cost.<br> And as you elevate consumer confidence, you’re better able to attract and retain new clients.</p>
+</div>
+                <section id="contact" class="vc_row pt-70">
+                    <div class="container">
+                    <div class="row">
+                    <div class="lqd-column col-md-12 pull-down">
+                    <div class="lqd-column-inner pt-100 pb-110 border-radius-15 bg-cover bg-center" style="background-image: url(./assets/demo/bg/world.gif);">
+                    <div class="row">
+                  <!--   <div class="col-md-6 col-md-offset-3 px-md-4 text-center ca-initvalues-applied perspective lqd-animations-done" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;all-childs&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;120&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateY&quot;:70,&quot;translateZ&quot;:-150,&quot;rotateX&quot;:-65,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateY&quot;:0,&quot;translateZ&quot;:0,&quot;rotateX&quot;:0,&quot;opacity&quot;:1}}">
+                    <hr class="w-10 border-color-primary lqd-unit-animation-done" style="transform: translateY(0px) translateZ(0px) rotateX(0deg); opacity: 1;"> -->
+                    <!-- <h2 class="px-md-4 text-white lqd-unit-animation-done" style="transform: translateY(0px) translateZ(0px) rotateX(0deg); opacity: 1;">The best solution to manage your work</h2>
+                    <p class="text-white mb-55 lqd-unit-animation-done" style="transform: translateY(0px) translateZ(0px) rotateX(0deg); opacity: 1;">No matter the size of your business, you will be able to benefit from signing up with Ave today. Besides, it’s free for 30 days.</p> -->
+                    <div class="row">
+<div class="lqd-column col-md-10 col-md-offset-1">
+<div class="contact-form contact-form-inputs-underlined contact-form-button-circle">
+                    <form action="assets/php/mailer.php" method="post" novalidate="novalidate">
+
+<div class="row d-flex flex-wrap">
+<div class="lqd-column col-md-6 mb-20">
+	<h2 class="mt-4 mb-4 tx" data-split-text="true" data-split-options='{"type":"lines"}' style="font-size: 40px">Say <span class="text-secondary" style="font-size: 45px;">Hello.</span></h2>
+<input class="lh-25 mb-30" type="text" name="name" aria-required="true" aria-invalid="false" placeholder="First Name" required>
+<input class="lh-25 mb-30" type="email" name="email" aria-required="true" aria-invalid="false" placeholder="Your email address" required>
+<input class="lh-25 mb-30" type="tel" name="mobile" aria-required="true" aria-invalid="false" placeholder="Mobile no" required>
+</div>
+<div class="lqd-column col-md-6 mb-20">
+<textarea cols="10" rows="6" name="message" aria-required="true" aria-invalid="false" placeholder="Message" required></textarea>
+</div>
+<div class="lqd-column col-md-6">
+<p class="font-size-16 opacity-07"><em>We know how important your information is. It's safe with us.</em></p>
+</div>
+</div></br>
+<div align="center">
+ <a href="#" class="btn btn-solid btn-md round btn-solid border-thick btn-gradient color-secondary font-size-14 text-uppercase font-weight-bold ltr-sp-1 px-2 lqd-unit-animation-done" style="opacity: 1;">
+                    <span>
+                    <span class="btn-gradient-bg"></span>
+                    <span class="btn-txt">Submit</span>
+                    <span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" class="btn-gradient-border" width="100%" height="100%">
+                    </div>
+<!-- <div class="lqd-column col-md-6 text-md-right">
+<input type="submit" value="Send message" class="font-size-13 ltr-sp-1 font-weight-bold"> -->
+</div>
+</div>
+</form>
+</div></div></div>
+                   
+                    <defs>
+                    <linearGradient id="svg-border-5c594d69345261" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color: #0287ed;"></stop>
+                    <stop offset="100%" style="stop-color: #03afe0;"></stop>
+                    </linearGradient>
+                    </defs>
+                    <rect x="0.5" y="0.5" rx="4px" ry="4px" width="100%" height="100%" stroke="url(#svg-border-5c594d69345261)"></rect>
+                    </svg>
+                    </span>
+                    </a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </section>
+            </main>
+            <footer class="main-footer bg-cover" style="background-image: url(./assets/demo/bg/bg.jpg);">
+                <section class="vc_row pb-50">
+                <div class="one-row_top_divider" style="height:140px;">
+                <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" width="100%" height="182" viewBox="0 0 1920 182" preserveAspectRatio="none">
+                <path d="M1921.91,916.348c0.33,39.216-.34,79.431,0,118.642Q957.95,1035.5-6,1035V853c40.431,10.8,81,19.794,122.5,27.149,62.957,11.157,117.371,15.375,180.742,21.116,79.864,7.236,165.843,26.989,255.045,42.232,109.142,18.65,243.949,40.091,308.265,44.243,137.637,8.886,313.056-2.783,504.066-36.2,127.4-22.286,223.4-43.261,354.45-45.248A1569.414,1569.414,0,0,1,1921.91,916.348Z" transform="translate(0 -853)"></path>
+                </svg>
+                </div>
+                <div class="container">
+                <div class="row">
+                <div class="lqd-column col-md-4 mb-4 mb-md-0 text-center text-md-left">
+                <figure>
+                <img src="./assets/img/logo/logo-light.png" alt="Ave">
+                </figure>
+                </div>
+                <div class="lqd-column col-md-4 text-center mb-4 mb-md-0">
+               <!--  <ul class="lqd-custom-menu reset-ul inline-nav font-size-14">
+                <li><a href="#" target="_blank">How it work</a></li>
+                <li><a href="#" target="_blank">Pricing</a></li>
+                <li><a href="#" target="_blank">FAQ</a></li>
+                </ul> -->
+                </div>
+                <div class="lqd-column col-md-4 text-md-right text-center">
+                <ul class="social-icon social-icon-md">
+                <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa fa-google"></i></a></li>
+               
+                <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+                </div>
+                </div>
+                </div>
+                </section>
+                </footer>
+    </div>
+    <div class="cursor"></div>
+    <script src="./assets/vendors/jquery.min.js"></script>
+    <script src="./assets/js/theme-vendors.js"></script>
+    <script src="./assets/js/theme.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            const cursor = document.querySelector('.cursor');
+            document.addEventListener('mousemove',e => {
+                cursor.setAttribute("style", "top: "+(e.pageY-10)+"px; left: "+(e.pageX-10)+"px;");
+            });
+        });
+    </script>
+</body>
+</html> 
